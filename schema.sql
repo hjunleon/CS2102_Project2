@@ -139,3 +139,5 @@ CREATE TABLE unsuccessful_return_deliveries (
 	PRIMARY KEY (request_id, leg_id), 
     FOREIGN KEY (request_id, leg_id) REFERENCES return_legs(request_id, leg_id)
 );
+
+\c postgres
