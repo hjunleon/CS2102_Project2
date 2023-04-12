@@ -1,3 +1,5 @@
+\c postgres
+
 DROP DATABASE IF EXISTS cs2102_project2;
 CREATE DATABASE cs2102_project2;
 
